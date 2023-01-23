@@ -19,3 +19,4 @@ winget install -e --id VideoLAN.VLC
 # winget paintdotnet
 winget install -e --id TechSmith.Snagit.2023
 winget install -e --id OpenWhisperSystems.Signal
+winget install -e --id Microsoft.BingWallpaper
