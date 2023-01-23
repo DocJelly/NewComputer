@@ -1,0 +1,21 @@
+winget install -e --id Microsoft.WindowsTerminal
+winget install -e --id Microsoft.VisualStudioCode
+winget install -e --id Git.Git
+# winget install cascadia code pl
+winget install JanDeDobbeleer.OhMyPosh -s winget
+
+winget install -e --id Microsoft.EdgeWebView2Runtime
+winget install -e --id Microsoft.VCRedist.2015+.x64
+
+winget install -e --id Google.Chrome
+winget install -e --id Microsoft.PowerToys
+winget install -e --id Bitwarden.Bitwarden
+winget install -e --id 7zip.7zip
+winget install -e --id Notepad++.Notepad++
+winget install -e --id ScooterSoftware.BeyondCompare4
+winget install -e --id Pushbullet.Pushbullet
+# winget install FFMpeg
+winget install -e --id VideoLAN.VLC
+# winget paintdotnet
+winget install -e --id TechSmith.Snagit.2023
+winget install -e --id OpenWhisperSystems.Signal
