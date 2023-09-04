@@ -26,7 +26,16 @@ $apps = @(
     "Pushbullet.Pushbullet",
     "VideoLAN.VLC",
     "TechSmith.Snagit.2023",
-    "OpenWhisperSystems.Signal"
+    "OpenWhisperSystems.Signal",
+    "Chocolatey.Chocolatey"
 )
 
-$apps | ForEach-Object {winget install --silent -e --id $_}
+$chocolateyApps = @(
+    "cascadiacodepl",
+    "ffmpeg",
+    "paint.net"
+)
+
+$apps | ForEach-Object {winget.exe install --silent -e --id $_ }
+
+$chocolateyApps | ForEach-Object {choco install $_ -y}
